@@ -21,9 +21,14 @@ Features implemented:
 Run command
 
 ```
-npm i react-native-cusom-datepicker-ios
+npm i react-native-custom-datepicker-ios
 // or
 yarn add react-native
+```
+
+Then link iOS dependencies
+```
+react-native link react-native-custom-datepicker-ios
 ```
 
 ## Example Code
