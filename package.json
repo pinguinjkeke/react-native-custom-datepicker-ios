@@ -1,0 +1,35 @@
+{
+    "name": "react-native-custom-datepicker-ios",
+    "version": "0.0.1",
+    "description": "Customizable DatePickerIOS component (textColor)",
+    "main": "CustomDatePickerIOS.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pinguinjkeke/react-native-custom-datepicker-ios.git"
+    },
+    "keywords": [
+      "react",
+      "native",
+      "react-native",
+      "ios",
+      "datepicker",
+      "datetime",
+      "date",
+      "custom",
+      "customizable"
+    ],
+    "author": "Alexander Avakov <yaavakov@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pinguinjkeke/react-native-custom-datepicker-ios/issues"
+    },
+    "homepage": "https://github.com/pinguinjkeke/react-native-custom-datepicker-ios#readme",
+    "peerDependencies": {
+      "create-react-class": "^15.6.3",
+      "prop-types": "^15.5.8",
+      "react-native": ">=0.40.0"
+    }
+  }
