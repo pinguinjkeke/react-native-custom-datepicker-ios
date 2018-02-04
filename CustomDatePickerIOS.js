@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   ColorPropType,
-  NativeMethodsMixin,
   requireNativeComponent,
   StyleSheet,
   View,
@@ -9,6 +8,7 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 import createReactClass from 'create-react-class';
+import NativeMethodsMixin from 'react-native/Libraries/Renderer/shims/NativeMethodsMixin';
 
 type DefaultProps = {
   mode: 'date' | 'time' | 'datetime',
