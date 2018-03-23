@@ -1,3 +1,6 @@
+/**
+ * @flow 
+ */
 import React from 'react';
 import {
   ColorPropType,
@@ -8,7 +11,6 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 import createReactClass from 'create-react-class';
-import NativeMethodsMixin from 'react-native/Libraries/Renderer/shims/NativeMethodsMixin';
 
 type DefaultProps = {
   mode: 'date' | 'time' | 'datetime',
@@ -27,8 +29,6 @@ const DatePickerIOS = createReactClass({
   displayName: 'DatePickerIOS',
   // TOOD: Put a better type for _picker
   _picker: (undefined: ?$FlowFixMe),
-
-  mixins: [NativeMethodsMixin],
 
   propTypes: {
     ...ViewPropTypes,
